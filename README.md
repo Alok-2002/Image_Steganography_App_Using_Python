@@ -1,6 +1,6 @@
 # Image Steganography App Using Python
 
-![App](app_screenshot.png)
+![App Screenshot](app_screenshot.png)
 
 ## Introduction
 
