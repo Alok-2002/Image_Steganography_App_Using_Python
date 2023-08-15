@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the Image Steganography App, a project developed by [Your Name]. This app allows you to hide confidential text messages within images using the concept of steganography. Steganography is the art of hiding information within another seemingly innocuous medium, such as an image.
+Welcome to the Image Steganography App, a project developed by [Alok Sharma](https://github.com/alok-2002). This app allows you to hide confidential text messages within images using the concept of steganography. Steganography is the art of hiding information within another seemingly innocuous medium, such as an image.
 
 In this project, I utilized the power of Python and the `tkinter` library for creating the graphical user interface (GUI), and the `stegano` library for the steganography functionality. The app provides a user-friendly interface to encode text messages into images and decode hidden messages from images.
 
