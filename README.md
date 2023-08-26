@@ -24,7 +24,7 @@ To run this app on your local machine, you'll need the following:
 - The `tkinter` library (usually included with Python installations)
 - The `stegano` library, which you can install using:
   ```
-  pip install stegano
+  pip install tkinter stegano
   ```
 
 ## How to Use
@@ -33,7 +33,7 @@ To run this app on your local machine, you'll need the following:
 2. Make sure you have Python and the required libraries installed.
 3. Run the `main.py` script:
    ```
-   python main.py
+   python HideNSeekImage.py
    ```
 4. The app window will open, providing options to encode and decode messages.
 5. To encode a message:
