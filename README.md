@@ -1,6 +1,7 @@
 # Image Steganography App Using Python
 
-![App Screenshot](app_screenshot.png)
+![image](https://github.com/Alok-2002/Image_Steganography_App_Using_Python/assets/93814546/31f0b3b5-830f-4f49-a32e-591889840123)
+
 
 ## Introduction
 
@@ -31,9 +32,9 @@ To run this app on your local machine, you'll need the following:
 
 1. Clone this repository to your local machine.
 2. Make sure you have Python and the required libraries installed.
-3. Run the `main.py` script:
+3. Run the `ImageCloak.py` script:
    ```
-   python HideNSeekImage.py
+   python ImageCloak.py
    ```
 4. The app window will open, providing options to encode and decode messages.
 5. To encode a message:
@@ -47,13 +48,13 @@ To run this app on your local machine, you'll need the following:
 
 ## Screenshots
 
-![Main Window](screenshots/main_window.png)
+![image](https://github.com/Alok-2002/Image_Steganography_App_Using_Python/assets/93814546/989d4447-ec4b-43d5-9322-bd599cbfc6f9)
 _Main window of the Image Steganography App._
 
-![Encoding](screenshots/encoding.png)
+![image](https://github.com/Alok-2002/Image_Steganography_App_Using_Python/assets/93814546/dc60f4d2-4635-4d12-a378-79e6a564153b)
 _Encoding a message into an image._
 
-![Decoding](screenshots/decoding.png)
+![image](https://github.com/Alok-2002/Image_Steganography_App_Using_Python/assets/93814546/ea90a532-9754-4153-a415-46d9d16381e0)
 _Decoding a hidden message from an image._
 
 ## Future Enhancements
@@ -75,4 +76,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to explore and use this Image Steganography App for your own purposes. If you have any questions or suggestions, please don't hesitate to contact me at [your@email.com]. Happy coding!
+Feel free to explore and use this Image Steganography App for your own purposes. If you have any questions or suggestions, please don't hesitate to contact me at [sharmaalok02gwl@gmail.com](mailto:sharmaalok02gwl@gmail.com). Happy coding!
