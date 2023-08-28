@@ -38,13 +38,13 @@ To run this app on your local machine, you'll need the following:
    ```
 4. The app window will open, providing options to encode and decode messages.
 5. To encode a message:
-   - Click on the "Encode" button.
+   - Click on the "Open Image" button.
    - Select the target image and provide the message you want to hide.
-   - Click "Encode" to generate the encoded image.
+   - Click "Save" to generate the encoded image.
 6. To decode a message:
-   - Click on the "Decode" button.
+   - Click on the "Open Image" button.
    - Select the image containing the hidden message.
-   - Click "Decode" to reveal the hidden message.
+   - Click "Show Data" to reveal the hidden message.
 
 ## Screenshots
 
