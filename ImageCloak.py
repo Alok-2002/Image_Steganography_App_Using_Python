@@ -3,13 +3,29 @@ from tkinter import filedialog
 from PIL import Image, ImageTk
 import os
 from stegano import lsb
+import sys
+
+
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
 
 root = Tk()
 root.title("ImageCloak")
 root.geometry("950x750")
 root.resizable(False, False)
 root.configure(bg="#34495e")
-root.iconbitmap("./assets/Logo.ico")
+root.iconbitmap(resource_path("assets/Logo.ico"))
+
+
 
 def show_image():
     global filename
@@ -28,8 +44,9 @@ def show_image():
     lbl.image = img
 
 def hide_data():
-    message = text1.get(1.0, END)
     global secret
+    message = text1.get(1.0, END)
+    
     secret = lsb.hide(str(filename), message)
 
 def show_data():
@@ -38,9 +55,14 @@ def show_data():
     text1.insert(END, clear_message)
 
 def save():
-    secret.save("Hidden.png")
+    if 'secret' in globals():
+        secret.save(resource_path("Hidden.png"))
+    else:
+        
+        print("No secret data to save.")
 
-logo = PhotoImage(file="./assets/output-onlinepngtools.png")
+
+logo = PhotoImage(file=resource_path("assets/output-onlinepngtools.png"))
 Label(root, image=logo, bg="#34495e").place(x=10, y=10)
 
 Label(root, text="IMAGE CLOAK", bg="#34495e", fg="white", font="arial 30 bold").place(x=90, y=15)
