@@ -2,6 +2,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/alok-2002/Image_Steganography_App_Using_Python)
 ![GitHub stars](https://img.shields.io/github/stars/alok-2002/Image_Steganography_App_Using_Python)
+![GitHub repo size](https://img.shields.io/github/repo-size/alok-2002/Image_Steganography_App_Using_Python)
 
 
 ![image](https://github.com/Alok-2002/Image_Steganography_App_Using_Python/assets/93814546/31f0b3b5-830f-4f49-a32e-591889840123)
